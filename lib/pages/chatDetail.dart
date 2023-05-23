@@ -17,9 +17,9 @@ class _ChatDetailState extends State<ChatDetail> {
       appBar: AppBar(
         actions: [
           IconButton(onPressed: () {
-          }, icon: Icon(Icons.video_call),iconSize: 20,),
+          }, icon: Icon(Icons.video_call),iconSize: 22,),
           IconButton(onPressed: () {
-          }, icon: Icon(Icons.call)),
+          }, icon: Icon(Icons.call),iconSize: 21,),
           PopupMenuButton(
             onSelected: (value) {
               print(value);
@@ -33,8 +33,7 @@ class _ChatDetailState extends State<ChatDetail> {
                 PopupMenuItem(value: 4, child: Text('Mute notifications')),
                 PopupMenuItem(value: 5, child: Text('Disappearing messages')),
                 PopupMenuItem(value: 6, child: Text('Wallpaper')),
-                PopupMenuItem(value: 7, child: Text('More')),
-                
+                PopupMenuItem(value: 7, child: Text('More')), 
               ];
             },
        ) ],

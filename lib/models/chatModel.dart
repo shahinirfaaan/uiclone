@@ -17,8 +17,8 @@ class Chat {
     String? status;
 
     Chat({
-        this.avatar,
-        this.name,
+         this.avatar,
+         this.name,
         this.isGroup,
         this.updateAt,
         this.message,
@@ -40,6 +40,6 @@ class Chat {
         "isGroup": isGroup,
         "updateAt": updateAt,
         "message": message,
-        "status": status,
+        "status":status,
     };
 }

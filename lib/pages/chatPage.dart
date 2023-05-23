@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:whatsapp/models/chatModel.dart';
 import 'package:whatsapp/pages/chatTile.dart';
@@ -11,15 +12,14 @@ class ChatPage extends StatelessWidget {
         isGroup: false,
         updateAt: '7.36 pm',
         message: 'Hi da',
-        status: 'last seen on Sat'),
-        
+        status:'online'),
         Chat(
         avatar: '',
         name: 'Fathima',
         isGroup: false,
         updateAt: '4.58 pm',
         message: 'Hey',
-        status: 'last seen 3 mintes ago'),
+        status: 'last seen 3:09PM'),
 
         Chat(
         avatar: '',
@@ -27,7 +27,7 @@ class ChatPage extends StatelessWidget {
         isGroup: true,
         updateAt: '1.21 am',
         message: 'Score.?',
-        status: 'online'),
+        status: 'last seen 6:09PM'),
         Chat(
         avatar: '',
         name: 'Aadil',
@@ -42,8 +42,7 @@ class ChatPage extends StatelessWidget {
         isGroup: true,
         updateAt: '8.29 am',
         message: 'Next week schedule',
-        status: 'online'),
-
+        status:'online'),
   ];
 
   @override
